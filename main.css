@@ -1,0 +1,60 @@
+body {
+    padding: 20px 0px 0px 200px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.form-calcul {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    gap: 10%;
+}
+
+.form-calcul {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 40px 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #00000083, 10px -10px 15px #00000083;
+}
+
+.affichage {
+    padding: 10px 10px;
+    background-color: rgba(150, 241, 241, 0.603);
+}
+
+.supprimer {
+    background-color: darkred;
+    color: white;
+    width: 40%;
+}
+
+.champ-saisir {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.type-champ {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+    height: 150px;
+}
+
+.number {
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+}
+
+#operations {
+    background-color: peru;
+}
